@@ -1,0 +1,18 @@
+.main-form {
+    background: lightblue;
+    border-radius: 10px;
+    margin: 50px auto 10px auto;
+    width: 500px;
+    height: 300px;
+}
+
+.main-input,
+.main-output {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.main-output__result {
+    width: 300px;
+    height: 100px;
+}
