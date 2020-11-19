@@ -13,7 +13,7 @@ const initialize = () => {
             path = splittedPath[1];
         }
         const processedPath = path.split('.py')[0].split('/').join('.');
-        const startCommand = './manage.py test ' + processedPath;
+        const startCommand = 'coverage run ./manage.py test ' + processedPath;
 
         const outputForm = document.querySelector('.js-main-output');
         outputForm.value = startCommand;
